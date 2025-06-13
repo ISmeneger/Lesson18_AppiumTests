@@ -33,6 +33,8 @@ dependencies {
     implementation "io.qameta.allure:allure-rest-assured:${allureVersion}"
     // https://mvnrepository.com/artifact/org.aspectj/aspectjweaver
     runtimeOnly("org.aspectj:aspectjweaver:1.9.23")
+    // https://mvnrepository.com/artifact/io.appium/java-client
+    implementation 'io.appium:java-client:9.2.2'
 
 }
 
